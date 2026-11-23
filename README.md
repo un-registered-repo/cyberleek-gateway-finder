@@ -121,9 +121,6 @@ python find_cyberleek_gateways.py --min-score 3
    ```
 5. Save and run the modified script
 
-### Method 2: Use the General Tool
-
-For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/palexlega/arweave-gateway-tools) repository (if available).
 
 ---
 
