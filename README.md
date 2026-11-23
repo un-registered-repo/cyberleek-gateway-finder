@@ -17,7 +17,7 @@ Find working Arweave gateways for Cyberleek.
 **One-click method:**
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Click **File → New notebook**
-3. Paste this code and click **Run** ▶️:
+3. Create a code box with "+ Code" Paste this code and click **Run** ▶️:
 
 ```python
 import urllib.request
