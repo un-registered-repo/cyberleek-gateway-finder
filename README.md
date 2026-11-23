@@ -4,6 +4,12 @@
 
 A Python tool that discovers and tests 300+ AR.IO gateways to find the fastest, most reliable access points for the Cyberleek ArNS name on the Arweave network.
 
+## ⚠️ WARNING: Beware of Scam Sites
+
+**Posting this repo so people don't fall for fake scam websites that ask for money.** The real Cyberleek website is hosted on Arweave and can only be accessed using an Arweave gateway. **The real website DOES NOT ASK FOR MONEY.**
+
+If a site claiming to be Cyberleek asks for payment, credit cards, or crypto donations to "unlock" content, **it is a scam**. This tool helps you find legitimate Arweave gateways for the authentic Cyberleek ArNS name.
+
 **💰 Bitcoin Donations:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
 
 ## ❓ Common Problems This Solves
@@ -30,7 +36,7 @@ This tool automatically finds working alternatives when your usual gateway fails
 **One-click method:**
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Click **File → New notebook**
-3. Paste this code and click **Run** ▶️:
+3. Create a code box with "+ Code" Paste this code and click **Run** ▶️:
 
 ```python
 import urllib.request
@@ -147,9 +153,12 @@ python find_cyberleek_gateways.py --min-score 3
    ```
 5. Save and run the modified script
 
+<<<<<<< HEAD
 ### Method 2: Use the General Tool
 
 For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/un-registered-repo/arweave-gateway-tools) repository (if available).
+=======
+>>>>>>> 29d748172cbddf30546dae3327f94048f583206f
 
 ---
 
