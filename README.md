@@ -2,6 +2,8 @@
 
 Find working Arweave gateways for Cyberleek.
 
+**💰 Bitcoin Donations:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
+
 **⚠️ IMPORTANT DISCLAIMERS:**
 - **I have NO affiliation with the Cyberleek project, its creators, or operators**
 - This is an independent tool for finding gateway mirrors
@@ -18,8 +20,21 @@ Find working Arweave gateways for Cyberleek.
 3. Paste this code and click **Run** ▶️:
 
 ```python
-!wget -q https://raw.githubusercontent.com/YOUR_USERNAME/cyberleek-gateway-finder/main/find_cyberleek_gateways.py
-!python find_cyberleek_gateways.py --top 10 --format url
+import urllib.request
+import sys
+
+# Download the script
+url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py'
+response = urllib.request.urlopen(url)
+script_content = response.read().decode('utf-8')
+
+# Save it to a file
+with open('find_cyberleek_gateways.py', 'w') as f:
+    f.write(script_content)
+
+# Run it with arguments
+sys.argv = ['find_cyberleek_gateways.py', '--top', '10', '--format', 'url']
+exec(script_content)
 ```
 
 4. Wait 30-60 seconds for results!
@@ -36,10 +51,10 @@ import urllib.request
 import sys
 
 # Download the script
-url = 'https://raw.githubusercontent.com/YOUR_USERNAME/cyberleek-gateway-finder/main/find_cyberleek_gateways.py'
+url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py'
 script = urllib.request.urlopen(url).read().decode('utf-8')
 
-# Execute it
+# Execute it with default arguments
 exec(script)
 ```
 
@@ -50,8 +65,9 @@ exec(script)
 3. Paste and run:
 
 ```python
-!wget https://raw.githubusercontent.com/YOUR_USERNAME/cyberleek-gateway-finder/main/find_cyberleek_gateways.py
-!python find_cyberleek_gateways.py --format url
+!pip install -q requests 2>/dev/null || true
+!wget -q https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py -O gateway_finder.py
+!python3 gateway_finder.py --format url
 ```
 
 ---
@@ -107,7 +123,7 @@ python find_cyberleek_gateways.py --min-score 3
 
 ### Method 2: Use the General Tool
 
-For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/YOUR_USERNAME/arweave-gateway-tools) repository.
+For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/palexlega/arweave-gateway-tools) repository (if available).
 
 ---
 
@@ -174,9 +190,9 @@ I do not:
 
 ## 💰 Support
 
-If you find this tool useful, consider supporting development:
+If you find this tool useful, Bitcoin donations are appreciated:
 
-**Bitcoin (BTC):** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
+**BTC:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
 
 ## 📄 License
 
