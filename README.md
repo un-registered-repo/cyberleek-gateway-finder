@@ -1,6 +1,6 @@
 # Cyberleek Gateway Finder
 
-Find working Arweave gateways for Cyberleek. Posting this repo so people don't fall for fake scam websites that ask for money. The real cyberleek website is hosted on arweave and can only be accessed using a arweave gateway.
+Find working Arweave gateways for Cyberleek. Posting this repo so people don't fall for fake scam websites that ask for money. The real cyberleek website is hosted on arweave and can only be accessed using a arweave gateway. The real website DOES NOT ASK FOR MONEY.
 
 **💰 Bitcoin Donations:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
 
