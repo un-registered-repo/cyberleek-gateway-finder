@@ -2,6 +2,12 @@
 
 Find working Arweave gateways for Cyberleek.
 
+**⚠️ IMPORTANT DISCLAIMERS:**
+- **I have NO affiliation with the Cyberleek project, its creators, or operators**
+- This is an independent tool for finding gateway mirrors
+- I do not host, create, or control any content on Cyberleek
+- I do not endorse or promote any content found through these gateways
+
 ## 🚀 Quick Start (No Installation)
 
 ### Option 1: Google Colab (Easiest - runs in your browser)
@@ -81,6 +87,30 @@ python find_cyberleek_gateways.py --min-score 3
 
 ---
 
+## 🔧 Using for Other ArNS Names
+
+**This script is hardcoded for "cyberleek" only.** To use it for other Arweave/ArNS sites:
+
+### Method 1: Edit the Script
+
+1. Download `find_cyberleek_gateways.py`
+2. Open it in a text editor
+3. Find this line near the top:
+   ```python
+   CYBERLEEK_TARGET = "cyberleek"
+   ```
+4. Change `"cyberleek"` to your desired ArNS name:
+   ```python
+   CYBERLEEK_TARGET = "ardrive"  # or any other ArNS name
+   ```
+5. Save and run the modified script
+
+### Method 2: Use the General Tool
+
+For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/YOUR_USERNAME/arweave-gateway-tools) repository.
+
+---
+
 ## 🔧 How It Works
 
 1. Discovers 300+ gateways from the AR.IO network
@@ -88,17 +118,59 @@ python find_cyberleek_gateways.py --min-score 3
 3. Verifies SSL, AR.IO node status, and registry membership
 4. Returns only safe gateways sorted by speed
 
-## ⚠️ Disclaimer
+## ⚠️ Legal Disclaimer
 
-**This tool only finds gateways. I am not responsible for what you do on Cyberleek or any content you access through these gateways. Use at your own risk.**
+**READ CAREFULLY BEFORE USING THIS TOOL:**
 
-The gateways returned by this script are third-party services operated by independent node operators. I do not control, endorse, or take responsibility for:
-- The content hosted on Cyberleek
-- The gateways or their operators
-- Your use of these gateways
-- Any actions you take after accessing Cyberleek
+### No Affiliation
+- I have **NO affiliation, association, authorization, endorsement, or connection** with:
+  - The Cyberleek project, website, or any of its creators/operators
+  - Any content hosted on Cyberleek or accessible through these gateways
+  - Any ArNS names, Arweave applications, or projects mentioned
+- This is an **independent, third-party tool** for technical gateway discovery only
 
-By using this tool, you acknowledge that you are solely responsible for your own actions and any consequences thereof.
+### No Responsibility or Liability
+**This tool only finds gateways. I am not responsible for:**
+- Any content you access, view, download, or interact with through these gateways
+- What you do on Cyberleek or any other site
+- The legality, safety, or appropriateness of any content
+- Any actions taken by gateway operators
+- Any harm, damages, or consequences resulting from your use of this tool
+- Any violations of law, terms of service, or third-party rights
+
+### Third-Party Services
+The gateways returned by this script are:
+- **Operated by independent third parties** (AR.IO node operators)
+- **Not controlled, endorsed, or verified by me** beyond technical functionality
+- **Subject to their own terms of service and policies**
+- **May log your activity, block content, or change availability** at any time
+
+### User Responsibility
+By using this tool, you acknowledge and agree that:
+- **You are solely responsible** for your actions and their consequences
+- **You will comply** with all applicable laws, regulations, and terms of service
+- **You will not use** this tool for illegal purposes
+- **You assume all risks** associated with accessing content through these gateways
+- **You will not hold me liable** for any outcomes related to your use of this tool
+
+### No Warranty
+This tool is provided "AS IS" without warranty of any kind, express or implied, including but not limited to:
+- Warranties of merchantability or fitness for a particular purpose
+- Accuracy, reliability, or availability of results
+- Security or privacy of your usage
+- Compliance with any laws or regulations
+
+### Jurisdiction
+If you are uncertain about the legality of accessing certain content in your jurisdiction, **consult a lawyer before using this tool**. The existence of this tool does not constitute legal advice or permission to access any content.
+
+### Content Policy
+I do not:
+- Monitor what content exists on Cyberleek or other ArNS sites
+- Review, approve, or screen any content accessible through these gateways
+- Make any representations about the nature of any content
+- Encourage or discourage accessing any particular content
+
+**USE AT YOUR OWN RISK. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS TOOL.**
 
 ## 💰 Support
 
