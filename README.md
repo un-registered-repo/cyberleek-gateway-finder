@@ -1,3 +1,10 @@
+## Support
+
+If you find this tool useful, consider supporting development:
+
+**Bitcoin (BTC):** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
+
+
 # Cyberleek Gateway Finder
 
 Find working Arweave gateways for Cyberleek.
@@ -49,11 +56,7 @@ The gateways returned by this script are third-party services operated by indepe
 
 By using this tool, you acknowledge that you are solely responsible for your own actions and any consequences thereof.
 
-## Support
 
-If you find this tool useful, consider supporting development:
-
-**Bitcoin (BTC):** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
 
 ## License
 
