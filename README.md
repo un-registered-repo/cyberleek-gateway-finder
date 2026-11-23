@@ -9,19 +9,8 @@ A Python tool that discovers and tests 300+ AR.IO gateways to find the fastest, 
 **Posting this repo so people don't fall for fake scam websites that ask for money.** The real Cyberleek website is hosted on Arweave and can only be accessed using an Arweave gateway. **The real website DOES NOT ASK FOR MONEY.**
 
 If a site claiming to be Cyberleek asks for payment, credit cards, or crypto donations to "unlock" content, **it is a scam**. This tool helps you find legitimate Arweave gateways for the authentic Cyberleek ArNS name.
-
+## Support if you found this useful:
 **💰 Bitcoin Donations:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
-
-## ❓ Common Problems This Solves
-
-- **"Cyberleek not loading"** - Gateway timeouts or downtime
-- **"Arweave gateway down"** - Primary gateway offline
-- **"Cannot access ArNS name"** - DNS resolution issues
-- **"ar.io gateway timeout"** - Slow or unresponsive gateways
-- **"Need Cyberleek mirror"** - Finding alternative access points
-- **"Arweave content unavailable"** - Gateway-specific blocking or errors
-
-This tool automatically finds working alternatives when your usual gateway fails.
 
 **⚠️ IMPORTANT DISCLAIMERS:**
 - **I have NO affiliation with the Cyberleek project, its creators, or operators**
@@ -88,7 +77,16 @@ exec(script)
 !wget -q https://raw.githubusercontent.com/un-registered-repo/cyberleek-gateway-finder/master/find_cyberleek_gateways.py -O gateway_finder.py
 !python3 gateway_finder.py --format url
 ```
+## ❓ Common Problems This Solves
 
+- **"Cyberleek not loading"** - Gateway timeouts or downtime
+- **"Arweave gateway down"** - Primary gateway offline
+- **"Cannot access ArNS name"** - DNS resolution issues
+- **"ar.io gateway timeout"** - Slow or unresponsive gateways
+- **"Need Cyberleek mirror"** - Finding alternative access points
+- **"Arweave content unavailable"** - Gateway-specific blocking or errors
+
+This tool automatically finds working alternatives when your usual gateway fails.
 ---
 
 ## 💻 Local Installation (For Technical Users)
