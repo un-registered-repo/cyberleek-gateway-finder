@@ -1,8 +1,21 @@
 # Cyberleek Gateway Finder
 
-Find working Arweave gateways for Cyberleek.
+**Find working Arweave gateways for Cyberleek - no installation required, runs in your browser.**
+
+A Python tool that discovers and tests 300+ AR.IO gateways to find the fastest, most reliable access points for the Cyberleek ArNS name on the Arweave network.
 
 **💰 Bitcoin Donations:** `bc1q7wlprmc20rdjyqjsghkhtnmndjs4dpmq26sz6h`
+
+## ❓ Common Problems This Solves
+
+- **"Cyberleek not loading"** - Gateway timeouts or downtime
+- **"Arweave gateway down"** - Primary gateway offline
+- **"Cannot access ArNS name"** - DNS resolution issues
+- **"ar.io gateway timeout"** - Slow or unresponsive gateways
+- **"Need Cyberleek mirror"** - Finding alternative access points
+- **"Arweave content unavailable"** - Gateway-specific blocking or errors
+
+This tool automatically finds working alternatives when your usual gateway fails.
 
 **⚠️ IMPORTANT DISCLAIMERS:**
 - **I have NO affiliation with the Cyberleek project, its creators, or operators**
@@ -75,7 +88,20 @@ exec(script)
 ## 💻 Local Installation (For Technical Users)
 
 ### Requirements
-- Python 3.8+ (no external dependencies)
+- Python 3.8+ (no external dependencies - uses standard library only)
+- Works on Windows, macOS, and Linux
+
+### Installation
+
+No installation needed - it's a single self-contained Python script:
+
+```bash
+# Download the script
+wget https://raw.githubusercontent.com/un-registered-repo/cyberleek-gateway-finder/master/find_cyberleek_gateways.py
+
+# Or using curl
+curl -O https://raw.githubusercontent.com/un-registered-repo/cyberleek-gateway-finder/master/find_cyberleek_gateways.py
+```
 
 ### Usage
 
@@ -129,10 +155,23 @@ For a tool that works with any ArNS name or transaction ID, see the general-purp
 
 ## 🔧 How It Works
 
-1. Discovers 300+ gateways from the AR.IO network
-2. Tests which ones can serve Cyberleek
-3. Verifies SSL, AR.IO node status, and registry membership
-4. Returns only safe gateways sorted by speed
+1. **Discovers 300+ gateways** from the AR.IO network peer list
+2. **Tests availability** - checks which ones can serve Cyberleek content
+3. **Verifies security** - confirms SSL certificates, AR.IO node status, and registry membership
+4. **Measures performance** - times response latency for each gateway
+5. **Returns safe results** - only shows gateways that pass safety checks, sorted by speed
+
+### Technical Details
+- Uses the AR.IO network's `/ar-io/peers` endpoint for gateway discovery
+- Performs parallel HTTP requests for fast testing (300+ gateways in ~30 seconds)
+- Validates SSL/TLS certificates to prevent MITM attacks
+- Checks AR.IO registry membership to filter out untrusted nodes
+- Assigns safety scores (0-4) based on multiple criteria
+- Zero external dependencies - uses only Python standard library
+
+## 🔍 SEO Keywords
+
+Arweave gateway finder, Cyberleek access, Cyberleek mirror, ArNS resolver, AR.IO gateway list, decentralized web access, permanent storage gateway, Arweave gateway discovery, Arweave mirror finder, ArNS name resolution, Arweave content delivery, gateway timeout fix, Arweave alternative gateway, AR.IO network tools, decentralized gateway finder, Arweave Python tool
 
 ## ⚠️ Legal Disclaimer
 
@@ -187,6 +226,23 @@ I do not:
 - Encourage or discourage accessing any particular content
 
 **USE AT YOUR OWN RISK. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THIS TOOL.**
+
+---
+
+## 🌐 Use Cases
+
+- **Gateway redundancy** - Always have backup access when primary gateway fails
+- **Performance optimization** - Find the fastest gateway for your location
+- **Censorship resistance** - Access content through decentralized mirror network
+- **Network research** - Analyze AR.IO gateway availability and distribution
+- **Development testing** - Test Arweave applications across multiple gateways
+- **Educational purposes** - Learn about decentralized content delivery networks
+
+## 🔗 Related Projects
+
+- **[Arweave](https://arweave.org)** - Permanent, decentralized data storage protocol
+- **[AR.IO](https://ar.io)** - Decentralized gateway network for Arweave
+- **[ArNS](https://arns.app)** - Arweave Name System for human-readable addresses
 
 ## 💰 Support
 
