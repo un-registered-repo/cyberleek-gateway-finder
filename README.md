@@ -24,7 +24,7 @@ import urllib.request
 import sys
 
 # Download the script
-url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py'
+url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/master/find_cyberleek_gateways.py'
 response = urllib.request.urlopen(url)
 script_content = response.read().decode('utf-8')
 
@@ -51,7 +51,7 @@ import urllib.request
 import sys
 
 # Download the script
-url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py'
+url = 'https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/master/find_cyberleek_gateways.py'
 script = urllib.request.urlopen(url).read().decode('utf-8')
 
 # Execute it with default arguments
@@ -66,7 +66,7 @@ exec(script)
 
 ```python
 !pip install -q requests 2>/dev/null || true
-!wget -q https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/main/find_cyberleek_gateways.py -O gateway_finder.py
+!wget -q https://raw.githubusercontent.com/palexlega/cyberleek-gateway-finder/master/find_cyberleek_gateways.py -O gateway_finder.py
 !python3 gateway_finder.py --format url
 ```
 
