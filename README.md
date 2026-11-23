@@ -153,14 +153,6 @@ python find_cyberleek_gateways.py --min-score 3
    ```
 5. Save and run the modified script
 
-<<<<<<< HEAD
-### Method 2: Use the General Tool
-
-For a tool that works with any ArNS name or transaction ID, see the general-purpose [arweave-gateway-tools](https://github.com/un-registered-repo/arweave-gateway-tools) repository (if available).
-=======
->>>>>>> 29d748172cbddf30546dae3327f94048f583206f
-
----
 
 ## 🔧 How It Works
 
@@ -180,7 +172,7 @@ For a tool that works with any ArNS name or transaction ID, see the general-purp
 
 ## 🔍 SEO Keywords
 
-Arweave gateway finder, Cyberleek access, Cyberleek mirror, ArNS resolver, AR.IO gateway list, decentralized web access, permanent storage gateway, Arweave gateway discovery, Arweave mirror finder, ArNS name resolution, Arweave content delivery, gateway timeout fix, Arweave alternative gateway, AR.IO network tools, decentralized gateway finder, Arweave Python tool
+Gta 6 leak, gta 6 leak website, cant find link to gta 6 build, gta 6 pc build, Arweave gateway finder, Cyberleek access, Cyberleek mirror, ArNS resolver, AR.IO gateway list, decentralized web access, permanent storage gateway, Arweave gateway discovery, Arweave mirror finder, ArNS name resolution, Arweave content delivery, gateway timeout fix, Arweave alternative gateway, AR.IO network tools, decentralized gateway finder, Arweave Python tool
 
 ## ⚠️ Legal Disclaimer
 
